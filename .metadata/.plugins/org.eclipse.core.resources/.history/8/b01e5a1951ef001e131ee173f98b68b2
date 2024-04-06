@@ -1,0 +1,15 @@
+package calculatorTest;
+
+import java.util.Scanner;
+
+public class Main {
+	 public static void main(String[] args) {
+	        Scanner sc = new Scanner(System.in);
+	        Calculator calculator = new Calculator();
+	        calculator.input();
+	        double result = calculator.calculate();
+	        System.out.println("결과: " + result);
+	        sc.close(); // 입력이 완료되면 스캐너를 닫아줍니다.
+}
+}
+

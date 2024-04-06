@@ -1,0 +1,11 @@
+package classTest02;
+
+public class Main {
+	public static void main(String[] args) {
+		Singer s1 = new Singer();
+		System.out.println(s1);
+		
+		
+	
+	}
+}

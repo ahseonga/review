@@ -1,0 +1,21 @@
+package animalTest;
+
+public class AnimalMain {
+	public static void main(String[] args) {
+//		Animal animal = new Animal("행복이" , 5, "강아지");
+//		
+//		
+//		animal.cry();
+//		animal.eat();
+		
+		//객체 2개, 생성하고 메소드 호출
+		Animal cat = new Animal();
+		cat.printAnimal();
+		
+		
+		
+		
+	}
+	
+	
+}

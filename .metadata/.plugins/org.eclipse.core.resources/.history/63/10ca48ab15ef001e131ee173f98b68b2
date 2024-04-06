@@ -1,0 +1,19 @@
+package constructorTest;
+
+class A {
+	//메소드
+	void method() {
+		System.out.println(this);	
+		
+	}
+	
+}
+
+
+public class ClassTest {
+	public static void main(String[] args) {
+		A a = new A();
+		System.out.println(a);
+	
+	}
+}

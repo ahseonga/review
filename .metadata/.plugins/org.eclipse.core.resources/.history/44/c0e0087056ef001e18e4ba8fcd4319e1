@@ -1,0 +1,30 @@
+package calculatorTest01;
+
+public class CalculatorTest001 {
+	//필드 생성
+	double num1, num2;
+	char oper;
+	
+	//기본 생성자
+	public CalculatorTest001() {
+		this.num1 = 0;
+		this.num2 = 0;
+		this.oper = ' ';
+	}
+	
+	//메소드생성 (매개변수 o , 리턴타입 x)
+	void input (double num1, double num2) {
+		System.out.println("첫번째 숫자 입력 : ");
+		this.num1 = num1;
+		System.out.println("두번쨰 숫자 입력 : ");
+		this.num2 = num2;
+		System.out.println("연산자를 입력하세요 (+,-,*,/) : ");
+		
+		
+		
+	}
+	
+	
+	
+
+}

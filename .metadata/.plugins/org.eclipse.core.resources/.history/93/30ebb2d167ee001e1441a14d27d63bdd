@@ -1,0 +1,8 @@
+package classTest02;
+
+public class MarvelMain {
+	public static void main(String[] args) {
+		MarvelHero ironMan = new MarvelHero();
+	
+}
+}

@@ -1,0 +1,16 @@
+package review;
+
+public class TvMain {
+	public static void main(String[] args) {
+		Tv sTv = new Tv(); //객체화 작업(인스턴스화)
+		System.out.println(sTv);
+		sTv.power = true;
+		System.out.println(sTv.power);
+		
+		
+		
+		
+		
+		
+	}
+}
